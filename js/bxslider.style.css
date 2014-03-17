@@ -1,0 +1,35 @@
+.bx-wrapper .bx-viewport {
+    border: none;
+    left: 0;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    right: -35%;
+    bottom: 5%;
+    z-index: 101;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #fcc800;
+    width: 11px;
+    height: 11px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: #ffff00;
+    box-shadow: 0 0 1px 1px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: url("circle-active.png");
+    box-shadow: 0 0 1px 1px;
+}
+.bx-wrapper {
+    margin: 0 auto 3px;
+}
+@media only screen and (min-width: 6400px) and (max-width: 758px){
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+        right: -30%;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 639px) {
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+        right: -25%;
+    }
+}
